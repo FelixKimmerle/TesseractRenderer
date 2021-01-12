@@ -5,8 +5,6 @@
 #include "ThickLine.hpp"
 #include <cmath>
 
-#define M_PI 3.14159
-
 #define NEAR_Z 0.5
 #define FAR_Z 4.5
 
@@ -20,7 +18,7 @@ float map(float value,
 int main()
 {
     sf::ContextSettings settings(0, 0, 8);
-    sf::RenderWindow window(sf::VideoMode(400, 400), "NDimention", sf::Style::Default, settings);
+    sf::RenderWindow window(sf::VideoMode(400, 400), "Tesseract", sf::Style::Default, settings);
     window.setFramerateLimit(60);
     sf::CircleShape shape(5.f);
     shape.setOrigin(5, 5);

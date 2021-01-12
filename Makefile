@@ -32,7 +32,7 @@ DBGCFLAGS = -g -O0 -DDEBUG
 RELDIR = release
 RELEXE = $(RELDIR)/$(EXE)
 RELOBJS = $(addprefix $(RELDIR)/, $(OBJS))
-RELCFLAGS = -O3 -Ofast -DNDEBUG -Werror -Wextra
+RELCFLAGS = -O3 -Ofast -DNDEBUG -Wextra
 
 .PHONY: all clean debug prep release remake run rund test
 

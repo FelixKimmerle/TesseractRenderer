@@ -74,8 +74,8 @@ public:
 
 private:
     sf::Vertex vertices[4];
-    float thickness;
     sf::Color color;
+    float thickness;
     sf::Vector2f mpoint1;
     sf::Vector2f mpoint2;
 };
