@@ -18,7 +18,7 @@ float map(float value,
 int main()
 {
     sf::ContextSettings settings(0, 0, 8);
-    sf::RenderWindow window(sf::VideoMode(400, 400), "Tesseract", sf::Style::Default, settings);
+    sf::RenderWindow window(sf::VideoMode(400, 400), "Tesseract", sf::Style::Close, settings);
     window.setFramerateLimit(60);
     sf::CircleShape shape(5.f);
     shape.setOrigin(5, 5);
